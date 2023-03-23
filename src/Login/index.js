@@ -37,6 +37,7 @@ function Login() {
                   onChange={(e) => setPassword(e.target.value)}
                 />
                 <a href="#">Forgot Password?</a>
+                <a href="/register">Don't have an account?</a>
                 <S.Button>
                   <S.Btn bg={"#301B52"}>Login</S.Btn>
                   <S.Btn bg={"#DB0916"}>SignUp</S.Btn>

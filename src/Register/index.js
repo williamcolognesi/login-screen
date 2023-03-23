@@ -52,7 +52,9 @@ function SignIn() {
                 />
                 <S.Button>
                   <S.Btn bg={"#301B52"}>Register</S.Btn>
-                  <S.Btn bg={"#DB0916"}>Login</S.Btn>
+                  <a href="/">
+                    <S.Btn bg={"#DB0916"}>Login</S.Btn>
+                  </a>
                 </S.Button>
               </S.FormContent>
             </S.FormBox>
